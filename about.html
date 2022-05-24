@@ -23,7 +23,7 @@
 <a href="index.html">Home</a>
 <a href="gallery.html">Gallery</a>
 <a href="javascript:void(0)" type="main">About</a>
-<a href="contact2.html">Contact</a>
+<a href="contact.html">Contact</a>
 </div>		
 <!--  navbar search box -->
 <div class="nav-form">
@@ -77,7 +77,7 @@ Welcome To India
 		<h4 class="fw-5">
 		<font color="#cd8f00" style="font-size:35px">W</font><b>ho could ever think that an eternal love leading to the saga of infinite bondage can evolve out of a desert like land and would blossom to be the reason to gift our world a poem-in-marble, The Taj!</b>
 		</h4></div>
-		<div id="main-table2" type="sec">
+		<div id="main-table2" type="sec" class="far">
 		<h4 class="fw-bold">No image of The Taj, neither on canvass nor on celluloid, can adequately express its conceptual imaginary nor convey the legend, the poetry and the romance that shrouds what Rabindranath Tagore calls "a teardrop on the cheek of time".<br>
 The Taj Mahal, a spectacle in white marble, unparalleled in grandeur that depicts the sheer opulence of an era. The awesome structure, the monument of love that Mughal Emperor Shah Jahan gave to the world, stands as a testimony of his intense love for his wife Mumtaz Mahal.<br>
 It is a romance celebrated in marble and glorified with precious and semi-precious stones and that’s the way to appreciate it!<br>
@@ -100,24 +100,36 @@ The Taj is not merely a monument of grace and dignity alone. It is, in fact, a m
 				The Taj is a reminder for all mankind about the universally accepted but not so well practiced concept of ‘Love & Peace’, the essence of the paradise, free from conflicts of races and geographical boundaries is important to be observed solemnly.<br>
 The Taj is simply a majestic tribute to an exotic beauty!<br>
 The saga of The Taj would be half told if the myths related to it are not mentioned. Like many a great buildings the Taj Mahal has its myths and legends. It seems that there is more fiction on the Taj than serious scholarly research. Several of the stories belong solely to oral tradition and are told by the guides, some are so established that they form a popular history of the monument and have made their way into guidebooks, and some have been taken up by scholars, or even created by them, and thus become part of the scholarly debate.</h4></div>
+
+<div id="main-table2" type="sec" class="far2">
+<h1 class="c-white fw-bold" align="center">Facts<hr style="width:250px;background:#fff;height:5px;border-radius:50px;"></h1>
+       <div id="facts">
+          <div>
+          	 To the last category belong the oldest tales of the Taj. Here the most widely known is the story of the second Taj, the '#0018ff Taj', which Shah Jahan intended to build in #0018ff marble opposite the present mausoleum, on the site of the Mahtab Bagh. It goes back to Jean-Baptiste Tavernier who, when at Agra in 1665 AD, reported that 'Shahjahan began to built his own tomb on the other side of the river, but the war with his sons interrupted his plan, and Aurangzeb, who reigns at present, is not disposed to complete it. Shah Jahan was put under house arrest by his own son and successor by force, Aurangzeb. The latter did not agree with his father on most issues and was particularly opposed to him building a #0018ff Taj as his own mausoleum.
+          </div>
+          <div class="mt-1 and">
+          	 To the last category belong the oldest tales of the Taj. Here the most widely known is the story of the second Taj, the '#0018ff Taj', which Shah Jahan intended to build in #0018ff marble opposite the present mausoleum, on the site of the Mahtab Bagh. It goes back to Jean-Baptiste Tavernier who, when at Agra in 1665 AD, reported that 'Shahjahan began to built his own tomb on the other side of the river, but the war with his sons interrupted his plan, and Aurangzeb, who reigns at present, is not disposed to complete it. Shah Jahan was put under house arrest by his own son and successor by force, Aurangzeb. The latter did not agree with his father on most issues and was particularly opposed to him building a #0018ff Taj as his own mausoleum.
+          </div>  </div>
+</div>				
+</div>
+
+
+<div id="footer">
+ <h4>Created by Ashutosh Pandey || ©️ All rights reserved</h4>
 </div>
 
 
 
-
-
-<script>
-window.addEventListener('contextmenu', function (e) {
-  document.body.innerHTML += ''
-  e.preventDefault();
-}, false);
-</script>
 <script>
 function dark(){
 const x =document.getElementById("main-body");
 const y =document.getElementById("dark");
 const z =document.getElementById("navbar");
 const a =document.getElementById("toggle");
+const b =document.getElementById("main-table2");
+const c =document.getElementsByClassName("far")[0];
+const d =document.getElementsByClassName("far2")[0];
+
   if (x.style.height ==="100%") {
     x.style.background ="linear-gradient(90deg,#060525,#1a347d)";
    z.style.background ="linear-gradient(45deg,#060525,#1a347d)";
@@ -125,16 +137,46 @@ const a =document.getElementById("toggle");
    y.style.justifyContent ="flex-start";
    a.innerHTML ="🌝";
    a.style.fontSize ="22px";
+   b.style.color ="#af7931";
+   c.style.color ="#af7931";
+   d.style.color ="#af7931";
   } 
    else { 
-    x.style.background ="linear-gradient(0deg,#3646bf 97% , #fff)"; 
+    x.style.background ="linear-gradient(0deg,#3646bf 95% , #fff)"; 
    z.style.background ="linear-gradient(45deg, #3646bf 60% ,#ffffff)"; 
    x.style.height ="100%";
    y.style.justifyContent ="flex-end";
    a.innerHTML ="🌚";
    a.style.fontSize ="24px";
+   b.style.color ="#eccc76";
+   c.style.color ="#eccc76";
+   d.style.color ="#eccc76";
     }	
 }
+</script>
+<script> 
+ashu = document.getElementById("navbar");				
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 340|| document.documentElement.scrollTop >340) {
+    ashu.style.boxShadow = "0px 0px 8px #fff";
+  
+  } else {
+    ashu.style.boxShadow = "0px 0px 0px 0px #fff";
+  }
+}				
+</script>
+<script> 			
+setTimeout(function check(){ 
+document.getElementById('loader').style.display = 'none'; },9000); 
+</script>
+<script>
+window.addEventListener('contextmenu', function (e) {
+  document.body.innerHTML += ''
+  e.preventDefault();
+}, false);
 </script>
 <script src="GetWeb.js"></script>
 </body>
