@@ -49,8 +49,9 @@ align-items:center;
 #form input{
 width:80%;
 background:#fff;
-padding:10px 10px;
+padding:12px 15px;
 outline:none;
+border:none;
 margin-top:1.3rem;
 border-radius:10px;
 font-family:fantasy;
@@ -59,7 +60,7 @@ font-family:fantasy;
 width:80%;
 height:150px;
 background:#fff;
-padding:10px 10px;
+padding:12px 15px;
 outline:none;
 margin-top:1.3rem;
 border-radius:10px;
@@ -71,6 +72,7 @@ width:44%;
 font-weight:bold;
 color:#fff;
 border:none;
+font-size:15px;
 background:linear-gradient(45deg,#4740ff,cyan);
 }
 

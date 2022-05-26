@@ -3,160 +3,233 @@
 <head>
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
-				<title>GetWeb-AI</title>
+				<meta name="theme-color" content="#000000">
+				<link rel="stylesheet" href="GetWeb.css">
+				<link rel="stylesheet" href="style.css">
+				<title>Tajmahal</title>
 </head>
-<body onload="get()" id="body">
-				
-				
-				
+<body class="us-none">
+
 <div id="loader">
-<form action="javascript:void(0)" onsubmit="setTimeout('remo()', 3000)">
-<div>				
-<h1>GetWeb-AI</h1>
-<input type="search" placeholder="Enter your name..." id="tog" pattern="[a-zA-Z'-'\s]*" title="Name doesn't contain any number or signs" maxlength="8" required>
-<br>
-<input type="submit" id="tog-sub" onclick="lo()" value="Start">
-<br>
-<div id="loadi"></div>
+<h1>Loading...</h1>
+<div id="loading" class="mb-5"></div>
+
+<h2>Made with ❤ by Ashutosh Pandey</h2>
 </div>
+
+
+<!-- navbar -->
+<div class="nav p-fi" id="navbar">
+<!-- navbar heading and toggle button -->		
+<div class="nav-heading l-1 fw-bold c-white">
+<span style="color:#ff9315;font-size:16px;">MERA</span>
+<span style="color:#fff;font-size:25px;">BHARAT</span>
+<span style="color:#0ba600;font-size:16px; ">MAHAAN</span>
+</div>				
+ <div class="nav-toggler r-1 bc-white" 	id="nav-toggler"></div>
+<!-- navbar links -->
+<div class="nav-links">
+<a href="javascript:void(0)" type="main">Home</a>
+<a href="gallery.html">Gallery</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>		
+<!--  navbar search box -->
+<div class="nav-form">
+<form>
+<input type="search" placeholder="Search..." class="nav-search bc-white c-black" required>	
+<input type="submit" class="nav-submit bc-transparent c-white b-1-white">	
 </form>
-
-<h3 align="center">Made with ❤ by Ashutosh Pandey</h3>
+</div>   
 </div>
-  
+<!-- navbar ended -->
 
-  
-  
-<div id="logos">				
-<div id="logo1">
-	<img src="bot.png">Get-Bot
+<section id="head">				
+
+<div id="main">
+	<div id="head-headings">
+<h1 align="center" class="fs-6" id="heading">
+Welcome To India
+</h1><div id="zero">
+<h1 id="heading2" class="fs-6">Do Come And Visit <span class="c-cyan">U.P.</span></h1></div>
+<h2>"India is not enough"</h2>
 </div>
-<div id="logo2" onclick="ope()">
-	<font id="logore">Online</font>
-	<img src="user.png"><span id="name"></span>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div>
+<a href="" id="sign">Sign in</a>&nbsp&nbsp
+<a href="" id="sign">Sign up</a>
 </div>
-</div><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="#main-body"><img src="scroll.gif"></a>
+</div>
+</section>
+<div style="line-height:12px;">
+<marquee id="mar1">		
+<span id="mar-ani">Note :</span>
+ Taj Mahal is now reopened for visitors (except Friday) Entry ticket through online only, no manual ticketing is there so far. Visitors are requested to follow covid guidelines strictly please.				
+</marquee>
+<div id="horizon"></div></div>
 
 
-<div id="menu">
-       <h3 onclick="clos()" id="menu-txt">×</h3>		
- <a href="index.html" class="menu-link">Home</a>
- <a href="" class="menu-link">About A.I.</a>
- <a href="" class="menu-link">Contact me</a>
- <a href="" class="menu-link">How it works ?</a>
+
+<!-- main section started -->
+<section id="main-body">
+
 <details>
-<summary id="dark" class="menu-link">Change theme</summary>
-<div id="choose">
-<h1 onclick="da()" id="yellow">■</h1>
-<h1 onclick="dad()" id="dark-green">■</h1>
-<h1 onclick="dada()" id="white-space">■</h1>
-<h1 onclick="dadad()" id="purple">■</h1>
+<summary><img src="fi2.png" width="100%" id="menu" onclick="icon()"></summary>
+<div id="menu-item">
+<a href="index.html">Home</a><hr>
+<a href="">Visiting hours & ticketing</a><hr>
+<a href="">Nearby Attractions</a><hr>
+<a href="">Night Viewing</a><hr>
+<a href="">Day Visiting Timing</a><hr>
+<a href="">Sign up</a><hr>
+<a href="">Change theme</a>
+</div>				
+</details>			
+<div id="dark" onclick="dark()"><div id="toggle">🌝</div></div>
+
+<div id="main-words">
+<h2 id="guide">
+<img src="new.gif"> Guidelines for visitors</h2>
+<img src="b2.png" id="main-hori">
+<h3 id="deserve">You deserve to visit it</h3>
+<h3 id="once">The Taj once more !</h3>
 </div>
-</details>
 
-<a href="" type="button" id="follow">Subscribe </a> 
+
+<div id="main-table">
+	<div id="main-table2">
+		<h4 class="fw-5">
+		One knows that ‘The Taj’ is one amongst the World’s Wonders!<br> One knows that it is one amongst the UNESCO World Heritage Sites!!<br> One knows The Taj as a legend of eternal love of an Emperor for his favourite Queen!!!
+		</h4>
+		<h4 class="fw-bold">Well, ‘The Taj’ has distinctions much beyond just these!<br /> Therefore, ‘The Taj’, surely, deserves your visit once and more!!!
+		</h4>
+		<p class="fw-5">Come, Walk along the pathway beside the reflecting pool with fountains upto the mausoleum crafted in soft &amp; pure marble and jewelled with semi precious stones, where in the serenity of paradise rests the Queen in peace with her King. Come to unfold the pages from the past to churn the charm out of its mystique and enrich your imagination about this marvel of an epic in stone, The Taj! </p> <p>The grace of perfection of proportions and grandeur of geometrical patterns of well appointed gardens enhancing the poise of the whole complex together add magnificence to the delicacy of this mance of love, dedication and purity, &lsquo;The Taj&rsquo;!</p> <p>Come take a dip into the saga of &lsquo;The Taj&rsquo;, culled out from no fiction but facts and unfurl a saga, which is set out of nothing but pure love!</p> <p>Beauty lies in the eyes of the beholder! Probably for Taj Mahal, the axiom is just the other way round.The Taj is the beauty personified! The Taj displays its different moods through its varied shades. The Taj has as many shades as any kind of beauty can ever have! The Taj is pinkish in the morning, milky white in the evening, golden when the moon shines and the intermediary variants during different hours of the day and during different seasons in a year.</p> <p>Picturesque descriptions by the historians contemporary to the period of its making, the facts revealed by the scholars &amp; archaeologists of today and the panoramic montage of the reasons behind its making are sketched with every step you would walk towards the mausoleum the next time you visit The Taj!</p> <p>A look this time at the Taj will keep you indulged with thoughts superimposing your sight and would make you feel the presence of Shah Jahan, the Maker and Mumtaz Mahal, the Reason, as though walking along with you. </p> <p>Whence its breathtaking splendour makes you wonder breathlessly and you tend to pause for a while but to continue staring at &lsquo;The Taj&rsquo;, you would sense them standing beside you!</p> <p><strong>If one has a heart that beats and that beat throbs to seek, the purity of love in galore! Surely one deserves a visit to &lsquo;The Taj&rsquo;, as much as &lsquo;The Taj&rsquo; deserves your visit once, and more!</strong></p> <div class="highlight"> Come to &lsquo;The Taj&rsquo; with blissful pride! Bring the saga come alive!!<br> Come; fall in love, every time!!!</h4> 
+	</div>
+</div></div>
+
+
+<img src="point.gif" id="point">
+
+<div id="shah">
+	    <div>
+	    	<img src="art.png" style="box-shadow:0px 0px 0px #fff;margin-bottom:0.7rem;">
+	    	<img src="sm2.jpg"><br>
+	    	<a href="">View Details</a>
+	    </div>
+	     <div>
+	    	<img src="art.png" style="box-shadow:0px 0px 0px #fff;margin-bottom:0.7rem;">
+	    	<img src="sm.jpeg"><br>
+	    	<a href="">View Details</a>
+	    </div>	    
+</div>
+<div id="horizon" class="mt-4"></div>
+
+
+<div id="day">
+		<div id="day-art">
+		<img src="art.png" style="box-shadow:0px 0px 0px #fff;margin-bottom:0.7rem;">
+		<img src="art.png" style="box-shadow:0px 0px 0px #fff;margin-bottom:0.7rem;">
+		</div>
+		<div id="day2">
+			<img src="day2.jpg"><br>
+			<a href="">View Details</a>
+		</div>
+</div>
+
+
+<div id="fees">				
+	<div id="fee">
+	Entry Fee <hr></div>
+	<img src="fee1.jpg">
+	<img src="fee2.jpg">
+	<img src="fee3.jpg">
+</div>
+
+<div id="fee-txt">
+<center>
+	Tourists buying tickets online will get discount of Rs.5/- for per Indian ticket & Rs. 50/- for per <center>Foreigner ticket ₹800</center><br>
+No Entry fee for children below the age of 15 years. <center>(both Domestic and Foreigner)</center>
+<br>
+Additional Rs.200/- will be charged if one wants to <center>visit main mausoleum.</center></center>
+</div>
+
+
+
+<div id="inputs" class="row">
+	   <div id="in1" class="col-sm-6 col-md-4 col-lg-4 col-6">
+	   	<h2>Where From ?</h2>
+	   	<input type="text">
+	   </div>
+	     <div id="in2" class="col-sm-6 col-md-4 col-lg-4 col-6">
+	   	<h2>When ?</h2>
+	   	<input type="date">
+	   </div>
+	    <div id="in3" class="col-sm-6 col-md-4 col-lg-4 col-6">
+	   	<h2>How Many ?</h2>
+	   	<input type="number">
+	   </div>
+</div>
+
+
+<div id="attractions">
+	    <h1>Nearby Attractions</h1><br>
+	    <div>
+	    	<img src="akbar.jpg">
+	    	<img src="agra.jpg">
+	    	<img src="it.jpg">
+	    	<img src="fateh.jpg">
+	    </div>
 </div>
 
 
 
 
+<!-- Swiper --> 
+<div class="swiper mySwiper mt-6 mb-6"> 
+<div class="swiper-wrapper"> 
+<div class="swiper-slide"><img src="taj2.jpeg" /> </div> 
+<div class="swiper-slide"><img src="15.jpg" /> </div> 
+<div class="swiper-slide"> <img src="16.jpg" /> </div> 
+<div class="swiper-slide"> <img src="17.jpg" /> </div> 
+<div class="swiper-slide"> <img src="taj.jpeg" /> </div> 
+<div class="swiper-slide"> <img src="18.jpg" /> </div> 
+<div class="swiper-slide"> <img src="19.jpg" /> </div> 
+<div class="swiper-slide"> <img src="20.jpg" /> </div> 
+<div class="swiper-slide"> <img src="12.jpg" />
+ </div> </div>
+  <div class="swiper-pagination"></div> </div>
 
-<div id="full">
-<div id="first">Hello👋, <span id="name2"></span></div>		
+
+			
+<div id="night-txt">
+<h2 class="c-yellow">An Experience Like No Other in World
+Viewing Taj Mahal at Full Moon Nights...</h2><br>
+<h3>
+"Only let this one tear-drop, this Taj Mahal, glisten spotlessly bright on the cheek of time, forever and ever." - Rabindranath Tagore
+Night viewing of Taj Mahal is available on five days in a month i.e. on full moon night and two nights before and two after the full moon.<br><br>
+Tickets are available One day before Night Viewing of the Taj between 10 A.M. to 6 P.M. at Archaeological Survey of India (A.S.I.) 22, Mall Road, Agra. Ph. +91 0562 - 2227261, 2227263, Fax: +91 562 - 2227262 E-mail: circleagra.asi@gov.in<br><br>
+Night Viewing Ticket can be cancelled in the above mentioned office on the day of viewing up to 1 P.M. (Cancellation charges:25% of the ticket). Timing: 20:30 hrs. to 00.30 hrs. in 8 batches of max. 50 people each. Time duration for each batch is half an hour (30 minutes).
+</h3><br>
+<a href="">View Details</a><br><br>
+<div id="pata">
+  <img src="nightview.jpg">
+</div>
+</div>
+
+<div id="map">
+<div>
+	Visiting Map<hr></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400553310003!2d78.0421422!3d27.175144799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sus!4v1634664921308!5m2!1sen!2sus" width="100%" onerror="fir()"></iframe>	
 </div>
 
 
-
-<div id="input">
-	  <input type="text" placeholder="Type your message here...." id="int-main" autofocus>
-	  <div onclick="sub()" id="sender"></div>
-</div>			
-
-<style>
-*::placeholder{
-color:#797979;	
-}
-body{
-margin:0;
-padding:0;
-height:10vh;
-background-image:url("bg.jpg"),linear-gradient(45deg, #4740ff, #8419e5 60%);
-background-size:100vw auto;
-background-attachment:fixed;
-background-repeat:repeat;
-user-select:none;
-overflow:hidden;
-}
-
-
-#input{
-width:100%;
-background:#fff;
-position:fixed;
-bottom:0;
-display: flex;
-align-items:center;
-padding:5px 0px;
-height:45px;
-}
-
-#input input{
-background:#fff;
-color:#000;
-padding:5px 15px;
-width:70%;
-height:100%;
-border:none;
-outline:none;
-font-size:17px;
-}
-#sender{
-width:30px;
-height:30px;
-border-radius:100%;
-position:absolute;
-right:15px;
-padding:7px;
-background-image:url("send.png");
-background-color:#3223d3;
-background-size:60% 60%;
-background-position:center;
-background-repeat:no-repeat;
-}
-
-
-
-/* most important */
-#first{
-max-width:200px;
-padding:7px 10px;
-border-top-left-radius:0px;
-border-top-right-radius:13px;
-border-bottom-left-radius:13px;
-border-bottom-right-radius:13px;
-margin:1rem 0rem 0rem 1rem;
-color:#000;
-font-weight:400;
-background:#fff;
-font-size:17px;
-word-wrap: break-word;
-}
-
-#second{
-max-width:200px;
-padding:7px 10px;
-border-top-left-radius:13px;
-border-top-right-radius:0px;
-border-bottom-left-radius:13px;
-border-bottom-right-radius:13px;
-margin:3rem 1rem 0rem auto;
-color:#000;
-font-weight:400;
-background:#fff;
-font-size:17px;
-overflow:scroll;
-word-wrap: break-word;
-}
+<div id="footer">
+     
+ <h4>Created by Ashutosh Pandey || ©️ All rights reserved</h4>
+</div>
+</section>
 
 
 
@@ -164,240 +237,73 @@ word-wrap: break-word;
 
 
 
-#logos{
-width:100%;
-position:fixed;
-top:0;
-backdrop-filter:blur(5px);
-background:#fff;
-height:60px;
-color:#000;
-padding:2px 0px 2px 0px;
-font-size:14px;
-font-weight:500;
-display: flex;
-align-items:center;
-justify-content:space-between;
+<script>
+function fir(){
+document.getElementById("map").style.display ="none"; 				
 }
-#logo1{
-display: flex;
-height:60px;
-flex-direction:column;
-align-items:center;
-justify-content:center;	
-margin-left:0.7rem;
-}
-#logo2{
-display: flex;
-height:60px;
-flex-direction:column;
-align-items:center;
-justify-content:center;	
-margin-right:0.7rem;
-}
+</script>
 
-#logore{		
-position:absolute;
-margin-right:6.3rem;
-margin-bottom:0.5rem;
-font-size:16px;
-color:#65ff00;
-letter-spacing:0.5px;
-text-shadow:0px 0px 1px #65ff00;
+<script>
+function icon() { 
+ var image = document.getElementById('menu');
+  if (image.src.match("fi3.jpg")) {
+   image.src = "fi2.png"; 
+   } 
+   else { 
+   image.src = "fi3.jpg"; 
+   } }		
+</script>
+<script>
+function dark(){
+const x =document.getElementById("main-body");
+const y =document.getElementById("dark");
+const z =document.getElementById("navbar");
+const a =document.getElementById("toggle");
+const b =document.getElementById("main-table2");
+  if (x.style.height ==="100%") {
+    x.style.background ="linear-gradient(90deg,#060525,#1a347d)";
+   z.style.background ="linear-gradient(45deg,#060525,#1a347d)";
+   x.style.height ="99.99%";
+   y.style.justifyContent ="flex-start";
+   a.innerHTML ="🌝";
+   a.style.fontSize ="22px";
+   b.style.color ="#af7931";
+  } 
+   else { 
+    x.style.background ="linear-gradient(0deg,#3646bf 95% , #fff)"; 
+   z.style.background ="linear-gradient(45deg, #3646bf 60% ,#ffffff)"; 
+   x.style.height ="100%";
+   y.style.justifyContent ="flex-end";
+   a.innerHTML ="🌚";
+   a.style.fontSize ="24px";
+   b.style.color ="#eccc76";
+    }	
 }
+</script>
+<script> 
+ashu = document.getElementById("navbar");				
 
-#logo1 img{
-width:45px;
-height:45px;
+window.onscroll = function() {scrollFunction()};
 
-}
-#logo2 img{
-width:45px;
-height:45px;
-}
-
-#menu{
-width:249.9px;
-background:#fff;
-padding:1px;
-display:none;
-border-top-left-radius:20px;
-border-top-right-radius:0px;
-border-bottom-left-radius:20px;
-border-bottom-right-radius:20px;
-position:absolute;
-border-left:6px double #8419e5;
-border-right:6px double #4740ff;
-border-top:6px double #4740ff;
-border-bottom:6px double #8419e5;
-right:17px;
-top:73px;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-z-index:9999;
-}
-.menu-link{
-color:#000;
-margin-bottom:1.5rem;
-text-decoration:none;
-font-size:18px;
-}
-#menu-txt{
-align-self:flex-end;
-margin:8px 13px 0 0;
-font-size:38px;
-font-weight:bolder;
-color:#000;
-}
-
-#follow{
-color:#fff;
-padding:10px 30px;
-font-size:18px;
-font-weight:bolder;
-background:linear-gradient(45deg, #4740ff, #8419e5 60%);
-border-radius:50px;
-margin-bottom:0.5rem;
-text-decoration:none;
-letter-spacing:1px;
-}
-#dark{
-color:#000;			
-margin-bottom:1rem;	
-}
-#full{
-height:calc(100vh - 121px);
-background:transparent;
-margin-bottom:45px;
-top:65px;
-width:100%;
-position:absolute;
-overflow:scroll;
-}
-
-
-
-/* preloader */
-#loader{
-width:100%;
-height:100%;
-background:linear-gradient(45deg, #4740ff, #8419e5 80%);
-position:absolute;	
-z-index:999999999;
-color:#fff;
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center; 
-}
-#loader div{
-display:flex;
-flex-direction:column;
-align-items:center;justify-content:center; 
-margin-bottom:4rem;
-}
-#loader h1{
-font-size:40px;
-margin-bottom:2rem;
-margin-top:7rem;
-text-shadow:0px 0px 10px #fff;
-}
-#loader h3{
-position:absolute;
-bottom:0px;
-font-size:17px;
-}
-#loader input{
-width:260px;
-background:#fff;
-padding:12px 14px;
-border:8px double #8419e5;
-border-radius:50px;
-font-size:16px;
-outline:none;
-}
-#loader input[type="submit"]{
-width:150px;
-background:linear-gradient(-45deg, #4740ff, #8419e5 60%);
-padding:9px 13px;
-border:4px solid #fff;
-border-radius:50px;
-color:#fff;
-font-size:17px;
-outline:none;
-}
-
-
-#choose{
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:14px;
-letter-spacing:4px;
-padding:1px 1px 1.5px 1px;
-margin:0 0 1rem 0;
-height:30px;
-background:#f2f2f2;
-border-radius:10px;
-}
-#yellow{
-color:yellow;
-}
-#dark-green{
-color:#000286;
-}
-#white-space{
-color:orange;				
-}
-#purple{
-color:#8419e5;
-}
-
-
-#loadi{
-width:20px;
-height:20px;
-border-radius:100%;
-border-left:3px solid #fff;
-border-right:3px solid #fff;
-border-bottom:3px solid #fff;
-border-top:3px solid transparent;
-visibility:hidden;
-animation:spinner 1s linear infinite;
-}
-@keyframes spinner{
-form{
-transform:rotate(0deg);
+function scrollFunction() {
+  if (document.body.scrollTop > 380|| document.documentElement.scrollTop >380) {
+    ashu.style.boxShadow = "0px 0px 8px #fff";
+  
+  } else {
+    ashu.style.boxShadow = "0px 0px 0px 0px #fff";
+  }
 }				
-to{
-transform:rotate(360deg);
-}
-}
-
-</style>				
-<script src="script.js"></script>
+</script>
+<script> 			
+setTimeout(function check(){ 
+document.getElementById('loader').style.display = 'none'; },9000); 
+</script>
 <script>
 window.addEventListener('contextmenu', function (e) {
   document.body.innerHTML += ''
   e.preventDefault();
 }, false);
 </script>
-<script>
-window.onload = checkInternetConnection; 
-function checkInternetConnection() {
-var box = document.getElementById("logore");
- var isOnLine = navigator.onLine; 
- if (isOnLine) {
-box.style.color ="#65ff00";
-  } 
-  else {
-box.style.color ="#ff0a00";
-box.innerHTML ="Offline"; 
-box.style.textShadow ="0px 0px 2px #ff0a00";
-  }
-     } 
-</script>
-
+<script src="GetWeb.js"></script>				
 </body>
 </html>
