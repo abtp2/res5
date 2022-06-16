@@ -1,3 +1,7 @@
+body {
+font-family:Arial;
+}
+
 /* navbar */
 .nav{
 background:linear-gradient(45deg,#060525,#1a347d);
@@ -449,8 +453,8 @@ flex-direction:column;
 color:#fff;
 text-decoration:none;
 position:absolute;
-top:18px;
-right:18px;
+top:22px;
+right:25px;
 font-size:45px;
 }
 #big-img img{
